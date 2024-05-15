@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relationship Predictor</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <H1>RELATIONSHIP PREDICTOR</H1>
+    <input type="text" name="" id="name" placeholder="enter your name">
+    <input type="text" name="" id="name" placeholder="enter your crush">
+    <button type="submit" id="submit" onclick="result()">CHECK</button> 
+    <p id="result"></p>
+    <script>
+        function result(){
+            const name = document.getElementById('name');
+            const crush = document.getElementById('crush');
+            var marks = Math.random()*100;
+            var result = document.getElementById('result');
+
+            result.innerHTML = "probabality of getting with relationship is"+" "+marks;
+        }
+        </script>
+</head>
+<body>
+    
+</body>
+</html>

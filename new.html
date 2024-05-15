@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Predictor</title>
+
+</head>
+<body>
+    <input type="text" name="" id="name" placeholder="enter your name">
+    <input type="text" name="" id="name" placeholder="enter your crush">
+    <button type="submit" id="submit" onclick="result()">CHECK</button> 
+    <p id="result"></p>
+    <script>
+        function result(){
+            const name = document.getElementById('name');
+            const crush = document.getElementById('crush');
+            var marks = Math.random()*100;
+            var result = document.getElementById('result');
+
+            result.innerHTML = "probabality of getting with relationship is"+" "+marks;
+
+            if(marks<35){
+                result.innerHTML = "your result is fail";
+
+            }  else if(marks==35){ 
+                result.innerHTML = "you are just pass";
+            }else if (marks>35&& marks<50){
+                result.innerHTML = "you are second class";
+            }else if (marks>50&&marks<75){  
+                result.innerHTML = "you are first class";
+            
+            }else if(marks>75&&marks<=100){
+                result.innerHTML = "you are distinction";
+            }
+        }
+        
+    </script>
+    
+</body>
+
+</html>

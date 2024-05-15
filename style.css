@@ -1,0 +1,29 @@
+
+
+
+
+h1{
+
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow:#ff00bb 3px 1px  ;
+    background-color: lightcoral;
+    font-style: oblique;
+    font-family: monospace;
+
+}
+body{
+    background-image: url(lv2.jfif);
+    background-attachment: scroll;
+    background-position: 100px;
+    background-repeat: repeat;
+text-align: center;
+text-decoration :underline;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+
+
