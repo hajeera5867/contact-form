@@ -2,23 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>FORM</title>
+    <link rel="stylesheet" href="2.style.css">
 </head>
 <body>
- <h1>FORM</h1>
- <link rel="stylesheet" href="2.style.css">
  <div>
+    <h1>form</h1>
+ <form id="form">
     <label for="">NAME</label>
     <input type="text" id="name" placeholder="enter your name"><br></br>
     <label for="">EMAIL-ID</label>
-    <input type="character" id="" placeholder="enter your email"><br></br>
+    <input type="email" id="email" placeholder="enter your email"><br></br>
     <label for="">PH NO</label>
     <input type="number" id="" placeholder="enter your number"><br></br>
     <label for="">TEXT AREA</label>
-    <input type="text" id="" placeholder="enter the text"><br></br>
-    <button type="submit" onclick="validate()">SUBMIT</button>
+    <input type="text" id="message" placeholder="enter the text"><br></br>
+    <button type="submit">SUBMIT</button>
+    </form>
  </div>
-    
+ <script src="mail.js"></script>
 </body>
 </html>
