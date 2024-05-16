@@ -14,7 +14,7 @@ h1{
 
 }
 body{
-    background-image: url(lv2.jfif);
+    background-color: aqua;
     background-attachment: scroll;
     background-position: 100px;
     background-repeat: repeat;

@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    text-decoration: double;
+    text-transform: underline;
+    text-shadow: 4px 1px black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    color: blueviolet;
+    font-variant: small-caps;
+    direction: rtl;
+}
+body{
+    text-align: center;
+    background-image:linear-gradient(to left,blue,#ff00c3,pink)
+}
+*{
+    text-align: center;
+
+}
